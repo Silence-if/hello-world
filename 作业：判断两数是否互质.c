@@ -1,6 +1,6 @@
 #include<stdio.h>
 int main (void)
-{  int a,b,i,c,;
+{  int a,b,i,c;
    printf("enter two numbers\n");
    scanf("%d%d",&a,&b);	
    i = 1;
@@ -27,11 +27,11 @@ int main (void)
    }
   
    if(c>1) 
-   printf("两数不互质\n");
+   printf("脕陆脢媒虏禄禄楼脰脢\n");
    
    else if(c=1)
    
-   printf("两数互质\n");
+   printf("脕陆脢媒禄楼脰脢\n");
    
 	return 0;
 	
