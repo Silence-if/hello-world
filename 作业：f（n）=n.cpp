@@ -3,7 +3,7 @@
 int main (void)
 {
 	int n,i,k,x[8],a,m,b,g,j,l,d;
-	 for(n=199900;;n++)
+	 for(n=2;;n++)
 	 { 
 	 b=0;
 	  for(m=1;m<=n;m++)
@@ -30,10 +30,9 @@ int main (void)
 			 }
 		   b=b+a;
 		   }
-		  
+		  printf("%d\n",n);
 		   if(b==n)
 		   {
-		   printf("%d\n",n);
 		   break;
 		   }
 		   
@@ -41,6 +40,9 @@ int main (void)
 	   }
 	   return 0;
 }
+	   
+		   
+	
 	   
 	   
 
